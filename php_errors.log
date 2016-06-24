@@ -1,0 +1,15 @@
+[23-Jun-2016 06:48:59 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/ubuntu/workspace/cyp05/020_Type_Variables/test_strtotime.php on line 8
+[23-Jun-2016 06:48:59 UTC] PHP Stack trace:
+[23-Jun-2016 06:48:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cyp05/020_Type_Variables/test_strtotime.php:0
+[23-Jun-2016 06:48:59 UTC] PHP   2. strtotime() /home/ubuntu/workspace/cyp05/020_Type_Variables/test_strtotime.php:8
+[23-Jun-2016 09:14:11 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cyp05/020_Type_Variables/testStringCompare.php on line 21
+[24-Jun-2016 01:15:48 UTC] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/cyp05/020_Type_Variables/test_Date.php on line 2
+[24-Jun-2016 01:15:48 UTC] PHP Stack trace:
+[24-Jun-2016 01:15:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cyp05/020_Type_Variables/test_Date.php:0
+[24-Jun-2016 01:15:48 UTC] PHP   2. date() /home/ubuntu/workspace/cyp05/020_Type_Variables/test_Date.php:2
+[24-Jun-2016 01:22:25 UTC] PHP Parse error:  syntax error, unexpected '$x' (T_VARIABLE) in /home/ubuntu/workspace/cyp05/020_Type_Variables/test_Date.php on line 5
+[24-Jun-2016 02:02:55 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cyp05/020_Type_Variables/test_Date.php on line 3
+[24-Jun-2016 02:02:55 UTC] PHP Stack trace:
+[24-Jun-2016 02:02:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cyp05/020_Type_Variables/test_Date.php:0
+[24-Jun-2016 02:03:18 UTC] PHP Parse error:  syntax error, unexpected '$x' (T_VARIABLE) in /home/ubuntu/workspace/cyp05/020_Type_Variables/test_Date.php on line 3
+[24-Jun-2016 02:07:43 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/cyp05/020_Type_Variables/test_strtotime.php on line 11

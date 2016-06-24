@@ -11,4 +11,7 @@
 	} else {
 		echo 'Fail';
 	}
+
+//用if及elseif判斷使其變成許多區間
+//在條件符合的區間中執行echo
 ?>

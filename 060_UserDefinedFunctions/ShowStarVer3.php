@@ -11,4 +11,7 @@ function ShowStar($iCount, $sWhat = "*")
 
 $iHowMany = 2;
 ShowStar($iHowMany);
+
+//icount>0才做
+
 ?>

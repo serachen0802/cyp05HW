@@ -4,7 +4,7 @@
 	switch ($num){
 		case 0:
 			echo "零";
-			break;
+			break;//需加入break跳出
 		case 1:
 			echo "壹";
 			break;

@@ -1,6 +1,8 @@
 <?php
-  $d = mktime(13, 30, 0, 9, 10, 2012);
-  echo $d;
+  $d = mktime(date(H)+8,8, 30, 0, 9, 10, 2012);//(時，分，秒，月，日，年)
+  echo $d;//$d為一時間戳
   echo "<br>";
-  echo date("Y-m-d H:i:s", $d);
+  echo date("Y-M-d H:i:s", $d);//轉成想要的時間格式
+  //若月份的m改為M 則9月會改以Sep顯示
+  //取得的時間為格林威治date(H)+8 可獲得台灣時間 
 ?>

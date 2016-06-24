@@ -11,4 +11,5 @@
   $x = TRUE;
   echo gettype($x), "<br>";
   
+  //藉由gettype可以得到變量的型態ex int double
 ?>
