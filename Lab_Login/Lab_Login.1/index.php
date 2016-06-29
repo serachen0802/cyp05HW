@@ -1,6 +1,16 @@
 <?php
-$userName="Guest";
+session_start();
+$user="guest";
+$login="登入";
+$con="login.php";
+
+if($_SESSION["userName"]!=""){
+   $user=$_SESSION["userName"];
+   $login="登出";
+   $con="login.php?logout=1";
+}
 ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -14,17 +24,14 @@ $userName="Guest";
     <td align="center" bgcolor="#CCCCCC"><font color="#FFFFFF">會員系統 - 首頁</font></td>
   </tr>
   <tr>
-    <?php 
-    
-    if($_COOKIE["userName"]!=""){
-      
-    }
-    ?>
-    <td align="center" valign="baseline"><a href="login.php">登入</a> | <a href="secret.php">會員專用頁</a></td>
+    <td align="center" valign="baseline"><a href="<?php echo $con?>"><?php echo $login ?></a> | <a href="secret.php">會員專用頁</a></td>
   </tr>
   <tr>
-    <td align="center" bgcolor="#CCCCCC">
-    HELLO<?php echo $userName?></td>
+    <td align="center" bgcolor="#CCCCCC">hello~
+    <?php
+    echo $user;
+    ?>
+    </td>
   </tr>
 </table>
 

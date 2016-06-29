@@ -4,5 +4,5 @@ function ShowStar()
 	echo "*****";
 }
 
-ShowStar();
+ShowStar();//執行function
 ?>

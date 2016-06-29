@@ -18,4 +18,5 @@ fileContent;
 
 $fileSize = file_put_contents("data2.txt", $content);
 echo "File size: $fileSize <br />-- Done --";
+//將長字串檔案寫入 data2  *file_put_contents
 ?>

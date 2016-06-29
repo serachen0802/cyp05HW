@@ -7,7 +7,7 @@ while (!feof($f))
 	$sData .= Trim($line);
 }
 fclose($f);
-echo HotCodeList($sData);
+echo HotCodeList($sData);//呼叫function
 
 
 function HotCodeList($sData)

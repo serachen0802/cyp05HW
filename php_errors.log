@@ -13,3 +13,13 @@
 [24-Jun-2016 02:02:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cyp05/020_Type_Variables/test_Date.php:0
 [24-Jun-2016 02:03:18 UTC] PHP Parse error:  syntax error, unexpected '$x' (T_VARIABLE) in /home/ubuntu/workspace/cyp05/020_Type_Variables/test_Date.php on line 3
 [24-Jun-2016 02:07:43 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/cyp05/020_Type_Variables/test_strtotime.php on line 11
+[27-Jun-2016 05:40:18 UTC] PHP Parse error:  syntax error, unexpected '\' (T_NS_SEPARATOR) in /home/ubuntu/workspace/cyp05/090_InputOutput/IO_5.php on line 4
+[27-Jun-2016 06:17:24 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, string given in /home/ubuntu/workspace/cyp05/090_InputOutput/IO_9.php on line 7
+[27-Jun-2016 06:17:24 UTC] PHP Stack trace:
+[27-Jun-2016 06:17:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cyp05/090_InputOutput/IO_9.php:0
+[27-Jun-2016 06:17:24 UTC] PHP   2. fclose() /home/ubuntu/workspace/cyp05/090_InputOutput/IO_9.php:7
+[28-Jun-2016 07:39:04 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/ubuntu/workspace/cyp05/070_String_Functions/ch07_LabHotCodeList2.php on line 6
+[28-Jun-2016 07:39:14 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/ubuntu/workspace/cyp05/070_String_Functions/ch07_LabHotCodeList2.php on line 6
+[28-Jun-2016 08:45:06 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cyp05/070_String_Functions/ch07_test_strtok.php on line 4
+[28-Jun-2016 08:45:19 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cyp05/070_String_Functions/ch07_test_strtok.php on line 4
+[28-Jun-2016 08:46:34 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home/ubuntu/workspace/cyp05/070_String_Functions/ch07_test_strtok.php on line 5

@@ -9,6 +9,6 @@ function test($i) {
 
 $x = 2;
 $p = "test";
-echo $p($x);
+echo $p($x);//將傳入的值都變成變數 增加彈性
 
 ?>

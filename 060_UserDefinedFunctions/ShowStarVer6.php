@@ -1,8 +1,9 @@
 <?php
 
 function ShowStar() {
-	$args = func_get_args();
+	$args = func_get_args();//動態取得函式的參數
 	
+	// 若沒有給參數 則有預設值
 	if (!isset($args[0]))
 		$args[0] = 5;
 	if (!isset($args[1]))

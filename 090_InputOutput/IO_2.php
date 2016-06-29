@@ -1,6 +1,6 @@
 <?php
 
-$fileDir = dirname ( __FILE__ );
+$fileDir = dirname ( __FILE__ );//目前位置 資料夾名稱
 $fileResource = opendir ( $fileDir );
 
 ?>
@@ -15,8 +15,11 @@ $fileResource = opendir ( $fileDir );
 	<p>File list:</p>
 	<ul>
 	<?php while ($item = readdir($fileResource)) : ?>
-		<li><?php echo $item; ?></li>
-	<?php endwhile; ?>
+	<!--返回文件名-->
+		<li><?php echo $item;?></li>
+	<?php endwhile; 
+	//{}可用: endwhile代替
+	?>
 	</ul>
 
 <?php closedir($fileResource); ?>

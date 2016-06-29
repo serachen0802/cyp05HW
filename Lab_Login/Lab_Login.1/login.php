@@ -1,13 +1,19 @@
 <?php
+session_start();
+if($_GET["logout"]!=""){
+  unset($_SESSION["userName"]);
+  header("location:index.php");
+} 
+
 if(isset($_POST["btnOK"])){
   if($_POST["txtUserName"]!=""){
-    setcookie("userName",$_POST['txtUserName']);
-    if(isset($_COOKIE["lastpage"])){
-      header("location:".$_COOKIE["lastpage"]);
-    }else
+    $_SESSION["userName"]=$_POST["txtUserName"];
     header("location:index.php");
+  }else {
+    $aler='<font color="red">請輸入帳號!!!</font>';
+   }
   }
-}
+
 ?>
 
 <html>
@@ -30,12 +36,17 @@ if(isset($_POST["btnOK"])){
       <td valign="baseline"><input type="password" name="txtPassword" id="txtPassword" /></td>
     </tr>
     <tr>
+      <td align="center" ><?php  echo  $aler?></td>
+    </tr>
+    <tr>
       <td colspan="2" align="center" bgcolor="#CCCCCC"><input type="submit" name="btnOK" id="btnOK" value="登入" />
       <input type="reset" name="btnReset" id="btnReset" value="重設" />
-      <input type="submit" name="btnHome" id="btnHome" value="回首頁" />
+      <a href="index.php">
+      <input type="button" name="btnHome" id="btnHome" value="回首頁"  /></a>
       </td>
     </tr>
   </table>
 </form>
+
 </body>
 </html>

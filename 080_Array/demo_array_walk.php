@@ -6,6 +6,6 @@ function glue ($val)
 	$result .= $val;
 }
 $array = array ('a', 'b', 'c', 'd');
-array_walk ($array, 'glue');
+array_walk ($array, 'glue');//傳入glue function
 echo $result;
 ?>

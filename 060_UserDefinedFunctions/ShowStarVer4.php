@@ -23,4 +23,5 @@ function ShowStar($iCount, $sWhat = "*")
 
 $iHowMany = 21;
 ShowStar($iHowMany);
+//將範圍縮在0~20之間
 ?>
